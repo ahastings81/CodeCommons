@@ -1,0 +1,14 @@
+[
+  {
+    "id": "c_general",
+    "name": "General"
+  },
+  {
+    "id": "c_mentorship",
+    "name": "Mentorship"
+  },
+  {
+    "id": "c_pitch",
+    "name": "Pitch an Idea"
+  }
+]

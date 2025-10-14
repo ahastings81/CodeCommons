@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fY5FML9wxCYwL4Lc1ayOf",
+    "userId": "u_admin",
+    "content": "test message",
+    "projectId": "p_portfolio",
+    "createdAt": 1756000818504
+  },
+  {
+    "id": "vHp7UOS5Q_ZhVAEKnv-MU",
+    "userId": "u_admin",
+    "content": "alright!",
+    "projectId": "p_portfolio",
+    "createdAt": 1756520573056
+  },
+  {
+    "id": "KO3u5lNBzkMtdUwXBks88",
+    "userId": "u_admin",
+    "content": "hiyaa",
+    "projectId": "p_portfolio",
+    "createdAt": 1760379496428
+  }
+]

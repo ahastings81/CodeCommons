@@ -1,0 +1,184 @@
+:root {
+  --bg:#ffffff; --fg:#111111; --muted:#666; --card:#fafafa; --border:#ddd;
+
+  /* Accent (blue) used by hovers, focus rings, ripple */
+  --accent-rgb: 37, 99, 235;      /* blue-600 */
+  --accent: rgb(var(--accent-rgb));
+  --accent-ghost: rgba(var(--accent-rgb), 0.10);
+
+  /* Layout sizing vars */
+  --content-max: 1100px;                /* center column max width */
+  --rail-size: clamp(240px, 24vw, 360px); /* side rails get room to breathe */
+}
+:root.dark {
+  --bg:#0f1115; --fg:#e6e6e6; --muted:#a0a0a0; --card:#14171d; --border:#2a2f3a;
+
+  /* Slightly lighter blue for dark backgrounds */
+  --accent-rgb: 96, 165, 250;     /* blue-400 */
+  --accent: rgb(var(--accent-rgb));
+  --accent-ghost: rgba(var(--accent-rgb), 0.16);
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,Segoe UI,Roboto,Arial}
+a{color:inherit;text-decoration:none}
+
+button,input,textarea,select{
+  padding:8px;
+  border:1px solid var(--border);
+  background:var(--card);
+  color:var(--fg);
+  border-radius:6px;
+}
+button{cursor:pointer}
+
+/* Common utility tokens */
+.muted{ color: var(--muted); }
+.spacer{ flex: 1; }
+
+/* Simple button variants used in UI */
+button.primary, .btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+button.primary:hover, .btn.primary:hover { filter: brightness(0.97); }
+
+button.ghost, .btn.ghost {
+  background: transparent;
+}
+button.ghost:hover, .btn.ghost:hover { background: var(--card); }
+
+/* Header */
+nav{
+  display:flex;gap:12px;padding:12px;border-bottom:1px solid var(--border);
+  align-items:center;position:sticky;top:0;background:var(--bg);z-index:5
+}
+
+/* Layout */
+.container{padding:16px;max-width:1100px;margin:0 auto}
+/* Avoid conflict with theme.css .container by tightening scope inside rails */
+.layout-rails > .container { max-width: var(--content-max); } /* beats theme’s generic .container */
+
+/* Cards */
+.card{border:1px solid var(--border);border-radius:10px;padding:12px;background:var(--card)}
+
+/* Grids & KB */
+.grid{display:grid;gap:12px}
+.grid.cols-2{grid-template-columns:1fr 1fr}
+.grid.cols-3{grid-template-columns:1fr 1fr 1fr}
+
+.kbCols{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.kbCol{border:1px solid var(--border);border-radius:6px;padding:8px}
+.kbItem{border:1px solid var(--border);margin-top:6px;padding:6px;border-radius:6px}
+
+/* Badges & tags */
+.badge{border:1px solid var(--border);padding:2px 6px;border-radius:999px;font-size:12px}
+.tag{font-size:12px;padding:2px 6px;border:1px solid var(--border);border-radius:999px;margin-right:6px}
+.badge-pro{color:#0a7; border-color:#0a7}
+
+/* Header pieces */
+.header-spacer{flex:1}
+.darkToggle{border:1px solid var(--border);padding:6px 10px;border-radius:6px}
+
+/* Toast */
+.toast{
+  position:fixed;bottom:18px;right:18px;padding:12px 14px;
+  border:1px solid var(--border);background:var(--card);border-radius:8px
+}
+
+/* Tables */
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border:1px solid var(--border);padding:6px;text-align:left}
+
+/* Tabs (Admin/other toolbars) */
+.tabs{ display:flex; gap:8px; align-items:center; margin:8px 0 12px }
+.tab{
+  padding:8px 10px;
+  border:1px solid var(--border);
+  background:var(--card);
+  color:var(--fg);
+  border-radius:8px;
+}
+.tab:hover{ background:rgba(0,0,0,0.02) }
+:root.dark .tab:hover{ background:rgba(255,255,255,0.02) }
+.tab.active{
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-ghost) inset;
+}
+
+/* Simple search group sizing (used in Admin tabs) */
+.search input{ width: 260px; }
+
+/* ==== Ad Rails (left/right) ==== */
+/* Make rails *actually bigger* with a fixed-but-responsive width */
+.layout-rails {
+  display: grid;
+  grid-template-columns: var(--rail-size) minmax(0, var(--content-max)) var(--rail-size);
+  gap: 16px;
+}
+@media (max-width: 980px) {
+  .layout-rails { grid-template-columns: 1fr; }
+  .layout-rails .ad-rail { display: none; }
+}
+.ad-rail {
+  position: sticky;
+  top: 72px;
+  align-self: start;
+  padding-top: 8px;
+}
+.ad-card {
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 12px;
+  padding: 14px;                 /* a touch more padding */
+  display: grid;
+  gap: 10px;                     /* breathe when media present */
+  cursor: pointer;
+  user-select: none;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.ad-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+.ad-media { width: 100%; overflow: hidden; border-radius: 8px; }
+.ad-media img, .ad-media video { display: block; width: 100%; height: auto; border-radius: 8px; }
+
+/* Slightly larger type so bigger rails read as “bigger” ads */
+.ad-title { font-weight: 700; font-size: 16px; line-height: 1.2; }
+.ad-body  { font-size: 13px; color: var(--muted); line-height: 1.45; }
+.ad-cta   { font-size: 12px; margin-top: 2px; text-decoration: underline; }
+
+/* ==== Like button: heart pill ==== */
+.like-btn {
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 999px;
+  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.like-btn .heart { font-size: 14px; line-height: 1; }
+.like-btn.liked { background: var(--accent-ghost); border-color: var(--accent); }
+.like-btn .count { font-size: 12px; color: var(--muted); }
+
+/* ==== Open Byte button (ghost) ==== */
+.open-btn {
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+.open-btn:hover { background: var(--card); }
+
+/* Small badge style used for metrics */
+.badge-subtle {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+}

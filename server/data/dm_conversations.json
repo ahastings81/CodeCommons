@@ -1,0 +1,144 @@
+[
+  {
+    "id": "1HdRKDnWzMe3afuA9c8CK",
+    "participants": [
+      "u_admin",
+      "mXoJFJrPSLzGCBhzG1w0M"
+    ],
+    "createdAt": 1756425779662,
+    "lastMessageAt": null
+  },
+  {
+    "id": "psdFivxN7PJQhtn4MIoHT",
+    "participants": [
+      "u_demo",
+      "u_XR5bnwz0ON"
+    ],
+    "createdAt": 1756425360063,
+    "lastMessageAt": null
+  },
+  {
+    "id": "zJLlLoJLRRGtgMwGtdaOb",
+    "participants": [
+      "u_demo",
+      "u_A0BMqykOCr"
+    ],
+    "createdAt": 1756425359154,
+    "lastMessageAt": null
+  },
+  {
+    "id": "XTtFA6__OyuYnSUfF70uA",
+    "participants": [
+      "u_admin",
+      "u_demo"
+    ],
+    "createdAt": 1756171469811,
+    "lastMessageAt": 1760400658370,
+    "lastMessage": {
+      "id": "76CHvB1Rm-pTgaayatVMT",
+      "senderId": "u_demo",
+      "content": "test",
+      "media": [],
+      "createdAt": 1760400658370
+    }
+  },
+  {
+    "id": "XtRiu30PEdmESRiincya6",
+    "participants": [
+      "u_fCBlflvCOv",
+      "u_admin"
+    ],
+    "createdAt": 1755950784687,
+    "lastMessageAt": 1756081213228
+  },
+  {
+    "id": "PGdMo8W-oN4adU5E24IQW",
+    "participants": [
+      "u_bT6C9OvTOl",
+      "u_ajVgSSCn2a"
+    ],
+    "createdAt": 1756060397484,
+    "lastMessageAt": 1755786490262
+  },
+  {
+    "id": "cg-gmokL_ooKgokTgY3gf",
+    "participants": [
+      "u_A0BMqykOCr",
+      "u_eaoRldo5qP"
+    ],
+    "createdAt": 1755774804995,
+    "lastMessageAt": 1756071353502
+  },
+  {
+    "id": "IyVHrnpN8hn6ZEbsq8WIn",
+    "participants": [
+      "u_bT6C9OvTOl",
+      "u_demo"
+    ],
+    "createdAt": 1756007514806,
+    "lastMessageAt": 1755993950483
+  },
+  {
+    "id": "iemKxHK1-acA9-3ZgJxcL",
+    "participants": [
+      "u_admin",
+      "u_7yRpDt3FFM"
+    ],
+    "createdAt": 1756144713856,
+    "lastMessageAt": 1756156646650
+  },
+  {
+    "id": "Sapi2CvEYQu0W_UKR5yB5",
+    "participants": [
+      "u_eaoRldo5qP",
+      "u_XR5bnwz0ON"
+    ],
+    "createdAt": 1755885897844,
+    "lastMessageAt": 1755736059264
+  },
+  {
+    "id": "lnqdnjC2nNzEaiq_5S372",
+    "participants": [
+      "u_3VdVaipaMU",
+      "u_A0BMqykOCr"
+    ],
+    "createdAt": 1755906204838,
+    "lastMessageAt": 1756224077699
+  },
+  {
+    "id": "9Ib0xRDWjlTGoJmVJnRMq",
+    "participants": [
+      "u_29R73n3e94",
+      "u_Tm2tZOJTZP"
+    ],
+    "createdAt": 1755864742493,
+    "lastMessageAt": 1756104293611
+  },
+  {
+    "id": "BJ7iEv5SzLgAQ1kT-epgX",
+    "participants": [
+      "u_7yRpDt3FFM",
+      "u_ajVgSSCn2a"
+    ],
+    "createdAt": 1755908381125,
+    "lastMessageAt": 1755869193690
+  },
+  {
+    "id": "IRNnhQy-dEhbn4wvcF0WR",
+    "participants": [
+      "u_fCBlflvCOv",
+      "u_3VdVaipaMU"
+    ],
+    "createdAt": 1755782739695,
+    "lastMessageAt": 1756112030052
+  },
+  {
+    "id": "VXZG9QOoNFsFtoxWGnxVV",
+    "participants": [
+      "u_admin",
+      "u_3VdVaipaMU"
+    ],
+    "createdAt": 1755822600943,
+    "lastMessageAt": 1756326407595
+  }
+]

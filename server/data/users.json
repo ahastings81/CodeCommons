@@ -1,0 +1,332 @@
+[
+  {
+    "id": "u_admin",
+    "email": "admin@collabhub.local",
+    "passwordHash": "$2a$10$4zFrdnMJg/3MWqrZ1N4z/e8Pokiv3BuuTfCaezdeUUk93ny4QYMYG",
+    "name": "A. A. Ron",
+    "role": "admin",
+    "tier": "pro",
+    "banned": false,
+    "bio": "Platform owner",
+    "skills": [
+      "ops",
+      "moderation"
+    ],
+    "links": {},
+    "org": "CodeCommons",
+    "isRecruiterVerified": true,
+    "createdAt": 1755998889991,
+    "avatarUrl": "http://localhost:4000/uploads/1755999570115_IMG_0347.JPG"
+  },
+  {
+    "id": "u_demo",
+    "email": "demo@collabhub.local",
+    "passwordHash": "$2a$10$8Ga80DYANsUB5WRKIRZQOuoajBdTRbVg/L5P1u0v/QXpKC7x08PYq",
+    "name": "Demo Moderator",
+    "role": "moderator",
+    "tier": "pro",
+    "banned": false,
+    "bio": "Excited to collaborate!",
+    "skills": [
+      "react",
+      "node",
+      "express",
+      "css"
+    ],
+    "links": {
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755998890036
+  },
+  {
+    "id": "l3TdaLEPkwDFqB7NkNkNi",
+    "email": "alice@example.com",
+    "passwordHash": "$2a$10$UVhDhTN0RlUjNubtUadKGuaR.Ch.chkFcFLoBJRpbeGfpDubvx/2O",
+    "name": "alice",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "",
+    "skills": [],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1756002754847
+  },
+  {
+    "id": "g2cXm754CJXNqqftprMc1",
+    "email": "john@example.com",
+    "passwordHash": "$2a$10$vJccehlJYPJpt4hQomQaqO1dFvy1RRMeD2AXMlMZz/SKNrgHuCFme",
+    "name": "john",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "",
+    "skills": [],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1756010593281
+  },
+  {
+    "id": "mXoJFJrPSLzGCBhzG1w0M",
+    "email": "bob@collabhub.local",
+    "passwordHash": "$2a$10$giGZKJ0lVEQAhSnXMxx9vuMn0NAqLmFIeXhZ61CfuXUtTWsIFpf/K",
+    "name": "bob",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "",
+    "skills": [],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1756179298506
+  },
+  {
+    "id": "u_bT6C9OvTOl",
+    "email": "alex@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Alex Johnson",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Student dev learning JS & APIs.",
+    "skills": [
+      "cpp",
+      "express",
+      "docker"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755694200431
+  },
+  {
+    "id": "u_Tm2tZOJTZP",
+    "email": "bri@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Bri Carter",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Student dev learning JS & APIs.",
+    "skills": [
+      "sql",
+      "docker",
+      "css"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755734558015
+  },
+  {
+    "id": "u_ajVgSSCn2a",
+    "email": "chris@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Chris Nguyen",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Student dev learning JS & APIs.",
+    "skills": [
+      "nextjs",
+      "sql",
+      "css"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755778650377
+  },
+  {
+    "id": "u_3VdVaipaMU",
+    "email": "dev@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Dev Patel",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Designer‑turned‑dev. I like clean code.",
+    "skills": [
+      "node",
+      "tailwind",
+      "sql"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755822361733
+  },
+  {
+    "id": "u_fCBlflvCOv",
+    "email": "eden@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Eden Rivera",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Frontend dev into React and UI polish.",
+    "skills": [
+      "express",
+      "sql",
+      "docker"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755867244751
+  },
+  {
+    "id": "u_29R73n3e94",
+    "email": "finn@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Finn O'Neil",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Student dev learning JS & APIs.",
+    "skills": [
+      "sql",
+      "python",
+      "express"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755910035862
+  },
+  {
+    "id": "u_XR5bnwz0ON",
+    "email": "gia@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Gia Park",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Frontend dev into React and UI polish.",
+    "skills": [
+      "python",
+      "tailwind",
+      "nextjs"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755953107712
+  },
+  {
+    "id": "u_eaoRldo5qP",
+    "email": "hayden@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Hayden Brooks",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Designer‑turned‑dev. I like clean code.",
+    "skills": [
+      "sql",
+      "python",
+      "tailwind"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1755993584543
+  },
+  {
+    "id": "u_A0BMqykOCr",
+    "email": "ivory@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Ivory Chen",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Designer‑turned‑dev. I like clean code.",
+    "skills": [
+      "sql",
+      "tailwind",
+      "python"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1756039919229
+  },
+  {
+    "id": "u_7yRpDt3FFM",
+    "email": "jules@collabhub.local",
+    "passwordHash": "$2b$10$NQhesjnwUz.EyisnaFTSXu/9RoCIXX.fmGRGU90yX40m3RHH2ojx6",
+    "name": "Jules Martin",
+    "role": "user",
+    "tier": "free",
+    "banned": false,
+    "bio": "Backend tinkerer. Node, Express, Postgres.",
+    "skills": [
+      "node",
+      "css",
+      "sql"
+    ],
+    "links": {
+      "github": "",
+      "linkedin": "",
+      "website": ""
+    },
+    "org": null,
+    "isRecruiterVerified": false,
+    "createdAt": 1756079827233
+  }
+]

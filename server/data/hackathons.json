@@ -1,0 +1,36 @@
+[
+  {
+    "votes": 2,
+    "voters": [
+      "u_admin",
+      "u_demo"
+    ],
+    "id": "h1",
+    "name": "Weekly Mini-Build",
+    "startDate": "2025-08-25T01:28:10.039Z",
+    "endDate": "2025-08-27T01:28:10.039Z",
+    "description": "Build a tiny tool with a friend. Winner gets bragging rights.",
+    "organizerId": "u_admin",
+    "createdAt": 1755998890039,
+    "submissions": [],
+    "registrations": [
+      "u_demo"
+    ]
+  },
+  {
+    "votes": 2,
+    "voters": [
+      "mXoJFJrPSLzGCBhzG1w0M",
+      "u_admin"
+    ],
+    "id": "0cwJu8X_-Ia2kQ04kL9FY",
+    "organizerId": "u_admin",
+    "createdAt": 1756211469893,
+    "submissions": [],
+    "registrations": [],
+    "name": "test hack",
+    "startDate": "2025-08-26T07:31",
+    "endDate": "2025-08-31T07:31",
+    "description": "test"
+  }
+]

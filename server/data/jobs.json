@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Zu-JiXsXsRtb1f42wKf4Q",
+    "creatorId": "u_admin",
+    "title": "asdaf",
+    "company": "zfsgfs",
+    "type": "gig",
+    "url": "",
+    "description": "afdd",
+    "skills": [
+      "javascript",
+      "react"
+    ],
+    "location": "Remote",
+    "salaryMin": 100,
+    "salaryMax": 150,
+    "remote": true,
+    "reports": 0,
+    "featured": false,
+    "createdAt": 1760385111448
+  },
+  {
+    "id": "j1",
+    "title": "Open Source Maintainer (Volunteer)",
+    "company": "Community",
+    "type": "gig",
+    "url": "",
+    "description": "Help triage issues and review PRs. Great for portfolio building.",
+    "creatorId": "u_demo",
+    "skills": [
+      "javascript",
+      "react"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "salaryMin": 0,
+    "salaryMax": 0,
+    "featured": true,
+    "reports": 0,
+    "createdAt": 1755998890038
+  }
+]

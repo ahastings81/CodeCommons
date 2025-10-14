@@ -1,0 +1,166 @@
+/* ========= Neutral structural utilities only ========= */
+/* No colors, no backgrounds, no global typography. */
+
+/* Containers & spacing */
+.container { max-width:1200px; margin:0 auto; padding:18px; }
+.section { margin:18px 0 }
+.section-title { display:flex; align-items:center; gap:10px; margin:0 0 10px }
+.section-title h3 { margin:0 }
+
+/* Grid helpers */
+.grid { display:grid; gap:12px }
+.grid.cols-2 { grid-template-columns:1fr 1fr }
+.grid.cols-3 { grid-template-columns:1fr 1fr 1fr }
+
+/* Sticky toolbar: just positioning & spacing */
+.toolbar { display:flex; gap:10px; align-items:center; margin:8px 0 14px }
+.toolbar .spacer { flex:1 }
+.toolbar.sticky { position:sticky; top:60px; z-index:1; padding:10px }
+
+/* Search group: layout only */
+.search { display:flex; gap:8px; align-items:center }
+.search input { width:260px }
+
+/* Tabs: layout only (no color/background) */
+.tabs { display:flex; gap:8px; align-items:center; margin-bottom:14px; padding-bottom:10px }
+.tab {
+  padding:8px 12px; border-radius:10px; cursor:pointer;
+  /* Intentionally no color/border/background here. */
+}
+.tab.active { /* you can style via your own theme classes */ }
+
+/* Scrollable panels: just sizing/overflow; no colors */
+.scroll-panel {
+  max-height: calc(100vh - 210px);
+  overflow: auto;
+  padding-right: 4px;
+  overscroll-behavior: contain;
+}
+
+/* List & pill structures: only spacing & shape */
+.list-row { display:flex; align-items:flex-start; gap:10px; padding:10px; border-radius:12px }
+.pill { display:inline-flex; gap:6px; align-items:center; padding:2px 8px; border-radius:999px; font-size:12px }
+
+/* Badges: shape & spacing only */
+.badge { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px }
+
+/* Cards: only radius/padding; let your theme color them */
+.card { border-radius:14px; padding:14px }
+
+/* Tables: spacing only */
+.table { width:100%; border-collapse:separate; border-spacing:0 8px }
+.table thead th { text-align:left; font-weight:600; padding:6px 10px }
+.table tbody td { padding:10px 10px }
+
+/* Responsive helpers */
+@media (max-width: 1080px){
+  .grid.cols-3 { grid-template-columns:1fr 1fr }
+}
+@media (max-width: 820px){
+  .grid.cols-3 { grid-template-columns:1fr }
+  .search input { width:200px }
+}
+/* Constrain a column card to viewport height and let its inner .scroll-panel scroll */
+.col-fill {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 100px); /* adjust if header is taller/shorter */
+}
+.col-fill .scroll-panel { flex: 1; overflow: auto; }
+
+/* === Lightbulb toggle === */
+.bulb-btn {
+  --bulb-off: #9aa1ac;
+  --bulb-on: #ffd54a;
+  --bulb-on-stroke: #b58a00;
+  --bulb-glow: rgba(255, 213, 74, 0.45);
+  appearance: none; border: none; background: transparent;
+  border-radius: 9999px; padding: 4px; display: inline-grid; place-items: center;
+  cursor: pointer; transition: transform 120ms ease;
+}
+.bulb-btn:hover { transform: translateY(-1px); }
+.bulb-btn:active { transform: translateY(0); }
+.bulb-btn:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; border-radius: 10px; }
+.bulb-btn .bulb-glass { fill: var(--bulb-off); transition: fill 200ms ease; }
+.bulb-btn .bulb-filament { stroke: #666; transition: stroke 200ms ease; }
+.bulb-btn .bulb-base { fill: #777; }
+.bulb-btn .bulb-socket { fill: #999; }
+.bulb-btn .bulb-rays line { stroke: var(--bulb-on-stroke); stroke-width: 2; stroke-linecap: round; opacity: 0; transform-origin: center; transition: opacity 200ms ease; }
+.bulb-btn.on .bulb-glass { fill: var(--bulb-on); filter: drop-shadow(0 0 6px var(--bulb-glow)); }
+.bulb-btn.on .bulb-filament { stroke: var(--bulb-on-stroke); }
+.bulb-btn.on .bulb-rays line { opacity: 1; animation: bulb-pulse 1.4s ease-in-out infinite; }
+@keyframes bulb-pulse { 0%,100%{transform:scale(1);opacity:.85} 50%{transform:scale(1.05);opacity:1} }
+@media (prefers-reduced-motion: reduce) { .bulb-btn, .bulb-btn * { animation:none!important; transition:none!important; } }
+
+/* ===== Universal button interaction polish (accent blue) ===== */
+:root { --accent-rgb: 37, 99, 235; }   /* blue-600 */
+.dark  { --accent-rgb: 96, 165, 250; } /* blue-400 */
+
+:where(button, .btn) {
+  position: relative;          /* needed for ripple */
+  overflow: hidden;            /* needed for ripple */
+  transition: box-shadow 150ms ease, transform 150ms ease, background-color 150ms ease, border-color 150ms ease, filter 150ms ease;
+}
+
+/* Hover: lift + soft accent ring. Use :where() to keep specificity low but consistent. */
+:where(button, .btn):hover:not(:disabled) {
+  transform: translateY(-1px);
+  /* outer drop + subtle accent outline */
+  box-shadow:
+    0 8px 18px rgba(0,0,0,0.14),
+    0 0 0 2px rgba(var(--accent-rgb), 0.18);
+  border-color: rgba(var(--accent-rgb), 0.45);
+  filter: brightness(1.03);
+}
+
+/* Active: settle + inner accent */
+:where(button, .btn):active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow:
+    0 3px 8px rgba(0,0,0,0.16),
+    0 0 0 2px rgba(var(--accent-rgb), 0.22) inset;
+}
+
+/* Keyboard focus ring */
+:where(button, .btn):focus-visible {
+  outline: 2px solid rgb(var(--accent-rgb));
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
+/* Ghost buttons: gentle tint on hover (respects dark mode) */
+button.ghost:hover:not(:disabled),
+.btn.ghost:hover:not(:disabled) { background-color: rgba(0,0,0,0.04); }
+.dark button.ghost:hover:not(:disabled),
+.dark .btn.ghost:hover:not(:disabled) { background-color: rgba(255,255,255,0.07); }
+
+/* Primary / Destructive keep palette, just brighten */
+button.primary:hover:not(:disabled),
+.btn.primary:hover:not(:disabled),
+button.destructive:hover:not(:disabled),
+.btn.destructive:hover:not(:disabled) { filter: brightness(1.05); }
+
+/* Disabled */
+:where(button, .btn):disabled { cursor: not-allowed; opacity: .6; transform: none; box-shadow: none; }
+
+/* Card hover opt-in */
+.card.hover:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(0,0,0,0.12); transition: transform 150ms ease, box-shadow 150ms ease; }
+
+/* ===== Ripple (blue) ===== */
+button .ink, .btn .ink {
+  position: absolute;
+  left: var(--ripple-x); top: var(--ripple-y);
+  width: var(--ripple-size); height: var(--ripple-size);
+  border-radius: 50%; pointer-events: none;
+  background: rgba(var(--accent-rgb), 0.25);  /* BLUE ripple */
+  opacity: 0.18;
+  transform: translate(-50%, -50%) scale(0);
+  animation: ripple 600ms ease-out forwards;
+  will-change: transform, opacity;
+}
+@keyframes ripple {
+  to { transform: translate(-50%, -50%) scale(1); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  button .ink, .btn .ink { animation: none; opacity: 0.12; transform: translate(-50%,-50%) scale(1); }
+}

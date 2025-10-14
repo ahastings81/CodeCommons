@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ad-dockly",
+    "title": "Dockly - An App-Aware Dockable Cheat sheet for Shortcuts",
+    "body": "Hot key docking of your favorite apps with instant shortcuts.",
+    "cta": "Try Dockly: Custom Shortcuts Dock",
+    "href": "https://a-a-rons-devspace.netlify.app",
+    "image": "/uploads/dockly_screenshot.png",
+    "impressions": 6636,
+    "clicks": 3
+  },
+  {
+    "id": "ad-codevault",
+    "title": "CodeVault - A language-Aware Taggable Code-Snippet Archive",
+    "body": "One click to open apps, folders, and URLs.",
+    "cta": "Try CodeVault: Tag it, Find it, Reuse it!",
+    "href": "https://a-a-rons-devspace.netlify.app",
+    "image": "/uploads/1756176080604_codevault_screenshot.png",
+    "impressions": 5876,
+    "clicks": 2
+  },
+  {
+    "id": "ad-taskdeck",
+    "title": "TaskDeck — Launch workflows fast",
+    "body": "One click to open apps, folders, and URLs.",
+    "cta": "Try TaskDeck: Custom Workflows, Instant Launch",
+    "href": "https://a-a-rons-devspace.netlify.app",
+    "image": "/uploads/TaskDeck.png",
+    "impressions": 5767,
+    "clicks": 2
+  }
+]

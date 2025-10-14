@@ -1,0 +1,115 @@
+[
+  {
+    "id": "p_portfolio",
+    "title": "Open Portfolio Builder",
+    "description": "A simple generator to publish developer portfolios.",
+    "tech": [
+      "react",
+      "vite",
+      "express"
+    ],
+    "rolesNeeded": [
+      "Frontend",
+      "Design"
+    ],
+    "repoUrl": "",
+    "ownerId": "u_demo",
+    "members": [
+      "u_demo",
+      "u_admin"
+    ],
+    "tags": [
+      "portfolio",
+      "frontend"
+    ],
+    "difficulty": "beginner",
+    "mentorshipFriendly": true,
+    "featured": true,
+    "tasks": [
+      {
+        "id": "T9cG_M9eT774DssuYz36W",
+        "title": "Scaffold React app",
+        "description": "",
+        "status": "done",
+        "assigneeId": "u_demo",
+        "creatorId": "u_demo",
+        "createdAt": 1755998890038
+      },
+      {
+        "id": "OUx96885lKf_nkO-E-B-Z",
+        "title": "Design landing page",
+        "description": "",
+        "status": "doing",
+        "assigneeId": "u_demo",
+        "creatorId": "u_demo",
+        "createdAt": 1755998890038
+      },
+      {
+        "id": "84xURuQJcB-Izezp9xsKa",
+        "title": "Write README",
+        "description": "",
+        "status": "todo",
+        "assigneeId": null,
+        "creatorId": "u_demo",
+        "createdAt": 1755998890038
+      }
+    ],
+    "chatHistory": [
+      {
+        "id": "hf-tkGL-6MFIgWwM-Gpib",
+        "userId": "u_demo",
+        "content": "Kicking off!",
+        "createdAt": 1755998890038
+      },
+      {
+        "id": "fY5FML9wxCYwL4Lc1ayOf",
+        "userId": "u_admin",
+        "content": "test message",
+        "createdAt": 1756000818504
+      },
+      {
+        "id": "vHp7UOS5Q_ZhVAEKnv-MU",
+        "userId": "u_admin",
+        "content": "alright!",
+        "createdAt": 1756520573056
+      },
+      {
+        "id": "KO3u5lNBzkMtdUwXBks88",
+        "userId": "u_admin",
+        "content": "hiyaa",
+        "createdAt": 1760379496428
+      }
+    ],
+    "createdAt": 1755998890038,
+    "updatedAt": 1760386021067
+  },
+  {
+    "id": "HWHB-3-PLt3v06LafvLhG",
+    "title": "test project",
+    "description": "digital joke",
+    "tech": [
+      "react",
+      "node"
+    ],
+    "rolesNeeded": [
+      "Frontend",
+      "Backend"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "showcase",
+      "open-source"
+    ],
+    "difficulty": "beginner",
+    "mentorshipFriendly": true,
+    "ownerId": "u_admin",
+    "members": [
+      "u_admin"
+    ],
+    "tasks": [],
+    "chatHistory": [],
+    "featured": false,
+    "createdAt": 1756211357303,
+    "updatedAt": 1760386056604
+  }
+]

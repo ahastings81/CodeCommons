@@ -1,0 +1,10 @@
+{
+  "name": "codecommons-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:server": "cd server && npm start",
+    "dev:client": "cd client && npm run dev"
+  }
+}

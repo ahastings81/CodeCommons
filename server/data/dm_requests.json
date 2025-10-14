@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RUkoy51fucETf-DTMvHpq",
+    "fromUserId": "u_admin",
+    "toUserId": "u_demo",
+    "message": "Hi! Can we chat?",
+    "status": "pending",
+    "createdAt": 1756437428522,
+    "decidedAt": null
+  },
+  {
+    "id": "avkUDG3cnF1Zvb67b-pY-",
+    "fromUserId": "u_admin",
+    "toUserId": "g2cXm754CJXNqqftprMc1",
+    "message": "Hi! Can we chat?",
+    "status": "pending",
+    "createdAt": 1756425554073,
+    "decidedAt": null
+  },
+  {
+    "id": "hPp34PFU_IrEhyXx7A0FF",
+    "fromUserId": "u_admin",
+    "toUserId": "u_demo",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1756171069984,
+    "decidedAt": 1756171469810
+  },
+  {
+    "id": "jeWNul14A1MLSeq9SCZQ1",
+    "fromUserId": "u_fCBlflvCOv",
+    "toUserId": "u_admin",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755950784687,
+    "decidedAt": 1756033948690
+  },
+  {
+    "id": "O2jEE0wJcfdgMCrzwuEB-",
+    "fromUserId": "u_bT6C9OvTOl",
+    "toUserId": "u_ajVgSSCn2a",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1756060397484,
+    "decidedAt": 1755667368630
+  },
+  {
+    "id": "qCf94fpCogwdhliGEgBKb",
+    "fromUserId": "u_A0BMqykOCr",
+    "toUserId": "u_eaoRldo5qP",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755774804995,
+    "decidedAt": 1756007332137
+  },
+  {
+    "id": "Ir5GcjUOuLquYqWcpZhQW",
+    "fromUserId": "u_bT6C9OvTOl",
+    "toUserId": "u_demo",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1756007514806,
+    "decidedAt": 1755944268717
+  },
+  {
+    "id": "9AgSO1w5W9Sgd2eZSMaMp",
+    "fromUserId": "u_admin",
+    "toUserId": "u_7yRpDt3FFM",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1756144713856,
+    "decidedAt": 1756064095845
+  },
+  {
+    "id": "FHsbHdicHQ_7WLbGCgAg1",
+    "fromUserId": "u_eaoRldo5qP",
+    "toUserId": "u_XR5bnwz0ON",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755885897844,
+    "decidedAt": 1755682161331
+  },
+  {
+    "id": "4s1eY5adup-5fZBzA4UxS",
+    "fromUserId": "u_3VdVaipaMU",
+    "toUserId": "u_A0BMqykOCr",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755906204838,
+    "decidedAt": 1756119903791
+  },
+  {
+    "id": "dzERxlp9AJJoqFqA3KSCr",
+    "fromUserId": "u_29R73n3e94",
+    "toUserId": "u_Tm2tZOJTZP",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755864742493,
+    "decidedAt": 1756030949319
+  },
+  {
+    "id": "AyIsq5tTyRaLCboZn-nE-",
+    "fromUserId": "u_7yRpDt3FFM",
+    "toUserId": "u_ajVgSSCn2a",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755908381125,
+    "decidedAt": 1755833119389
+  },
+  {
+    "id": "ak4Fo2dBXIquizgW4J-nm",
+    "fromUserId": "u_fCBlflvCOv",
+    "toUserId": "u_3VdVaipaMU",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755782739695,
+    "decidedAt": 1756000473232
+  },
+  {
+    "id": "nH6H6dugGb24pBdi-TjWU",
+    "fromUserId": "u_admin",
+    "toUserId": "u_3VdVaipaMU",
+    "message": "Hi! Can we chat?",
+    "status": "accepted",
+    "createdAt": 1755822600943,
+    "decidedAt": 1755912712281
+  }
+]
