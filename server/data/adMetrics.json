@@ -3,7 +3,7 @@
     "adId": "ad-taskdeck",
     "advertiserId": "ad-taskdeck",
     "totals": {
-      "impressions": 35,
+      "impressions": 46,
       "clicks": 0,
       "conversions": 0,
       "spend": 0
@@ -183,6 +183,61 @@
         "type": "impression",
         "ts": "2025-10-14T00:47:04.479Z",
         "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-14T01:55:17.820Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-14T01:55:17.830Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-15T14:04:23.491Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-15T14:04:23.497Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-11-13T20:56:28.939Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-11-13T20:56:28.949Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-01-07T02:34:11.941Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-01-07T02:34:11.954Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-19T04:58:21.378Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-19T04:58:21.416Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-20T02:58:42.564Z",
+        "value": 0
       }
     ]
   },
@@ -190,7 +245,7 @@
     "adId": "ad-dockly",
     "advertiserId": "ad-dockly",
     "totals": {
-      "impressions": 69,
+      "impressions": 82,
       "clicks": 0,
       "conversions": 0,
       "spend": 0
@@ -540,6 +595,71 @@
         "type": "impression",
         "ts": "2025-10-14T00:46:40.486Z",
         "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-14T01:54:53.839Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-14T01:54:53.884Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-15T14:03:59.514Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-15T14:03:59.563Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-11-13T20:56:02.664Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-11-13T20:56:04.937Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-11-13T20:56:04.957Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-01-07T02:33:46.280Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-01-07T02:33:47.952Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-01-07T02:33:48.001Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-19T04:57:57.369Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-19T04:57:57.434Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-20T02:58:18.578Z",
+        "value": 0
       }
     ]
   },
@@ -547,7 +667,7 @@
     "adId": "ad-codevault",
     "advertiserId": "ad-codevault",
     "totals": {
-      "impressions": 45,
+      "impressions": 57,
       "clicks": 0,
       "conversions": 0,
       "spend": 0
@@ -776,6 +896,66 @@
       {
         "type": "impression",
         "ts": "2025-10-14T00:46:52.474Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-14T01:55:05.820Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-14T01:55:05.826Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-15T14:04:11.480Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-10-15T14:04:11.492Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-11-13T20:56:16.938Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2025-11-13T20:56:16.949Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-01-07T02:33:59.937Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-01-07T02:33:59.952Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-19T04:58:09.371Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-19T04:58:09.416Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-20T02:58:30.557Z",
+        "value": 0
+      },
+      {
+        "type": "impression",
+        "ts": "2026-02-20T02:58:30.559Z",
         "value": 0
       }
     ]

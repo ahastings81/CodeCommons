@@ -1,5 +1,16 @@
 [
   {
+    "id": "8rsWaWGH3fklALLgbl3O2",
+    "userId": "u_admin",
+    "type": "post_liked",
+    "payload": {
+      "postId": "1K7AHJW9vziTx9FxUw1xG",
+      "byUserId": "u_admin"
+    },
+    "createdAt": 1760406902682,
+    "read": true
+  },
+  {
     "id": "yLg8VEadrVGrB0IjP9ayB",
     "userId": "u_admin",
     "type": "comment_liked",

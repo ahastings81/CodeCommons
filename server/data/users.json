@@ -47,7 +47,7 @@
     "email": "alice@example.com",
     "passwordHash": "$2a$10$UVhDhTN0RlUjNubtUadKGuaR.Ch.chkFcFLoBJRpbeGfpDubvx/2O",
     "name": "alice",
-    "role": "user",
+    "role": "moderator",
     "tier": "free",
     "banned": false,
     "bio": "",

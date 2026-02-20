@@ -1,18 +1,5 @@
 [
   {
-    "id": "1K7AHJW9vziTx9FxUw1xG",
-    "userId": "u_admin",
-    "content": "stuff and things",
-    "media": [
-      {
-        "url": "/uploads/1760385314504_StormSounds3.mp4",
-        "type": "video"
-      }
-    ],
-    "createdAt": 1760385314524,
-    "reports": 0
-  },
-  {
     "id": "3fhK7DruVfhk1MNA3EuCC",
     "userId": "u_demo",
     "content": "Dope!",
