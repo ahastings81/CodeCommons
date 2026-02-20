@@ -192,7 +192,7 @@ export default function Profile() {
                     const f = e.target.files?.[0]; if(!f) return;
                     try {
                       const out = await api.uploadAvatar(f);
-                      setMe({...me, avatarUrl: 'http://localhost:4000' + out.url});
+                      setMe({...me, avatarUrl: api.assetUrl(out.url)});
                       alert('Uploaded. Click Save.');
                     } catch {
                       alert('Upload failed');
