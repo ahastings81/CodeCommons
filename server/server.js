@@ -4,13 +4,14 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const { Server } = require('socket.io');
-const { PORT, CLIENT_ORIGIN } = require('./config');
+const { PORT, CLIENT_ORIGIN, TRUST_PROXY } = require('./config');
 const { read, write, ensureFile } = require('./utils/db');
 const { nanoid } = require('nanoid');
 const path = require('path');
 const adsRoutes = require('./routes/ads');
 
 const app = express();
+if (TRUST_PROXY) app.set('trust proxy', 1);
 app.use(express.json());
 app.set('io', null);
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -49,6 +50,10 @@ app.use(cors({
   credentials: true,
   allowedHeaders: ['Content-Type','Authorization'],
 }));
+
+app.get('/health', (req, res) => {
+  res.json({ ok: true, uptime: process.uptime(), ts: Date.now() });
+});
 
 app.use(rateLimit({
   windowMs: 60_000,

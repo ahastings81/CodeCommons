@@ -1,11 +1,11 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
-import { api } from '../services/api.js';
+import { api, API_BASE } from '../services/api.js';
 import { io } from 'socket.io-client';
 import { useParams, Link } from 'react-router-dom';
 import { useToast } from '../context/ToastContext.jsx';
 
-const socket = io('http://localhost:4000', { autoConnect: true });
+const socket = io(API_BASE, { autoConnect: true });
 
 export default function ProjectDetail() {
   const { id } = useParams();

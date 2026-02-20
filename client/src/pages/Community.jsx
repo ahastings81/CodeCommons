@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { api } from '../services/api.js';
+import { api, API_BASE } from '../services/api.js';
 import UserLink from '../components/UserLink.jsx';
 import { useLocation } from 'react-router-dom';
 
-const API = 'http://localhost:4000';
+const API = API_BASE;
 
 // ---------- helpers ----------
 const isArr = (x) => Array.isArray(x);
